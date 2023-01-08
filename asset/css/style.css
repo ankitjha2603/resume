@@ -186,7 +186,7 @@ a:hover {
 
 .badge {
     padding: 4px 10px;
-    background-color: var(--dark-violet);
+    background-color: black;
     border-radius: 7px;
     height: 27px;
     color: white;
