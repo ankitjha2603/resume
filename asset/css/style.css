@@ -62,7 +62,7 @@ page[size="A4"] {
 page::before {
     content: "*created using HTML5, CSS3 and JS";
     position: relative;
-    left: 20px;
+    left: 10px;
     font-weight: 600;
     color: #888888;
     font-size: 12px;
