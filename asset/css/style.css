@@ -186,7 +186,7 @@ a:hover {
 
 .badge {
     padding: 4px 10px;
-    background-color: black;
+    background-color: #663399;
     border-radius: 7px;
     height: 27px;
     color: white;
@@ -194,6 +194,7 @@ a:hover {
     font-size: 12px;
     display: flex;
     align-items: center;
+    letter-spacing: .5px;
 }
 
 ul.list {
