@@ -19,6 +19,7 @@ const skills = [
   "SASS",
   "Machine Learning",
   "C",
+  "C++"
   "Data Structures",
   "Php",
   "Node.js",
