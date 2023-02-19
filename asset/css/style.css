@@ -30,6 +30,10 @@
     font-family: arial, serif;
 }
 
+.mt10 {
+    margin-top: 10px;
+}
+
 /*==================================================*/
 
 /*==================================================*/
@@ -74,7 +78,7 @@ page::before {
 /*                   Resume head                    */
 /*--------------------------------------------------*/
 .resume-head {
-    padding: 15px 30px;
+    padding: 15px 30px 5px 30px;
 }
 
 .resume-name {
@@ -103,11 +107,12 @@ page::before {
 
 .profile-image>img {
     max-width: 120px;
+    max-height: 100px;
 }
 
 .head-info {
     height: fit-content;
-    width: 500px;
+    width: 550px;
 }
 
 /*==================================================*/
@@ -125,7 +130,7 @@ page::before {
     min-width: fit-content;
     height: fit-content;
     padding: 2px 10px;
-    margin: 0px 10px;
+    margin: 0px -5px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -170,6 +175,11 @@ a:hover {
     background-image: url(../icon/gfg.svg);
 }
 
+.icon-img.leetcode {
+    background-image: url(../icon/leetcode.svg);
+}
+
+
 /*==================================================*/
 
 /*==================================================*/
@@ -186,7 +196,7 @@ a:hover {
 
 .badge {
     padding: 4px 10px;
-    background-color: #663399;
+    background-color: steelblue;
     border-radius: 7px;
     height: 27px;
     color: white;
@@ -198,7 +208,7 @@ a:hover {
 }
 
 ul.list {
-    list-style-type: "→"
+    list-style-type: "â†’"
 }
 
 /*==================================================*/
@@ -213,3 +223,7 @@ ul.list {
 /*                    project                     */
 /*--------------------------------------------------*/
 /*==================================================*/
+
+dl.mbl {
+    margin-bottom: 0px !important;
+}

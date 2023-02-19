@@ -1,5 +1,5 @@
 console.log("this is script.js (ankitjha2603.github.io)");
-
+const soft_skill = ["Problem solving", "Critical thinking"];
 const skill_you_do = [
   "Web Development",
   "Full-Stack Development",
@@ -7,20 +7,17 @@ const skill_you_do = [
   "Web crawling",
 ];
 const skills = [
-  "python",
-  "HTML5",
-  "CSS3",
+  "Python",
+  "HTML & CSS",
+  "SCSS/SASS",
   "Javascript",
   "jQuery",
-  "Search Engine Optimization (SEO)",
-  "Search Engine Marketing (SEM)",
-  "Markdown",
-  "SCSS",
-  "SASS",
+  "SEO/SEM",
+  "Java",
   "Machine Learning",
   "C",
   "C++",
-  "Data Structures",
+  "DSA",
   "Php",
   "Node.js",
 ];
@@ -32,16 +29,19 @@ const tool = [
   "Docker swarm",
   "Adobe XD",
   "Bootstrap",
-  "git",
-  "Microsoft Visual Studio Code",
-  "GitHub",
+  "Git & GitHub",
+  "Google Analytics",
+  "SEMrush",
+  "Ahrefs",
 ];
 append(
-  ".skill-badges",
+  ".tech-badges",
   ...skills.map((ele) => newElement("badge", ele, "span"))
 );
 append(
   ".lib-framework-badges",
-  ...[...library, ...frameworks].map((ele) => newElement("badge", ele, "span"))
+  ...library.map((ele) => newElement("badge", ele, "span")),
+  ...frameworks.map((ele) => newElement("badge", ele, "span"))
 );
+
 append(".tools-badges", ...tool.map((ele) => newElement("badge", ele, "span")));
