@@ -1,0 +1,230 @@
+/*==================================================*/
+/*                Google font import                */
+/*--------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+/*==================================================*/
+
+/*==================================================*/
+/*   imp class and variable  and globar things      */
+/*--------------------------------------------------*/
+:root {
+    --basic-color-light: rgb(49.409485%, 85.099792%, 34.118652%);
+    --theme-dard-green: rgb(0%, 50.19989%, 21.569824%);
+    --dark-violet: #154677
+}
+
+::selection {
+    background: var(--basic-color-light);
+}
+
+.noto-serif-georgian {
+    font-family: 'Noto Serif Georgian', serif;
+}
+
+.merriweather {
+    font-family: 'Merriweather', serif;
+}
+
+.arial {
+    font-family: arial, serif;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+/*==================================================*/
+
+/*==================================================*/
+/*                       Body                       */
+/*--------------------------------------------------*/
+body {
+    margin: 0px;
+    padding-top: 30px;
+    background: rgb(204, 204, 204);
+}
+
+/*==================================================*/
+
+/*==================================================*/
+/*                       page                       */
+/*--------------------------------------------------*/
+page {
+    background: white;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+    box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+}
+
+page[size="A4"] {
+    width: 21cm;
+    height: 29.7cm;
+}
+
+page::before {
+    content: "*created using HTML5, CSS3 and JS";
+    position: relative;
+    left: 10px;
+    font-weight: 600;
+    color: #888888;
+    font-size: 12px;
+}
+
+/*==================================================*/
+
+/*==================================================*/
+/*                   Resume head                    */
+/*--------------------------------------------------*/
+.resume-head {
+    padding: 15px 30px 5px 30px;
+}
+
+.resume-name {
+    margin-bottom: 0px;
+    font-weight: bolder;
+}
+
+.resume-headline {
+    color: #888888;
+    font-weight: 600;
+}
+
+.profile-image,
+.head-info {
+    margin: 5px 10px;
+}
+
+.profile-image {
+    width: fit-content;
+    height: fit-content;
+    background-repeat: repeat;
+    overflow: hidden;
+    padding: 0px;
+    border-radius: 10px;
+}
+
+.profile-image>img {
+    max-width: 120px;
+    max-height: 100px;
+}
+
+.head-info {
+    height: fit-content;
+    width: 550px;
+}
+
+/*==================================================*/
+
+/*==================================================*/
+/*                   contact info                   */
+/*--------------------------------------------------*/
+.contect-info {
+    width: 100%;
+    height: fit-content;
+    background-color: #F0F0F0;
+}
+
+.contact-info-column {
+    min-width: fit-content;
+    height: fit-content;
+    padding: 2px 10px;
+    margin: 0px -7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.contact-info-particular {
+    display: flex;
+    padding: 2px 12px 2px 5px;
+    width: fit-content;
+    margin: 5px 0px;
+}
+
+.contact-info-particular>div {
+    margin: 0px 5px;
+}
+
+a {
+    color: black;
+    text-decoration: revert;
+}
+
+a:hover {
+    color: var(--theme-dard-green);
+}
+
+.icon-img {
+    background-size: contain;
+    width: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon-img.docker {
+    background-image: url(../icon/docker.svg);
+}
+
+.icon-img.hackerrank {
+    background-image: url(../icon/hackerrank.svg);
+}
+
+.icon-img.gfg {
+    background-image: url(../icon/gfg.svg);
+}
+
+.icon-img.leetcode {
+    background-image: url(../icon/leetcode.svg);
+}
+
+
+/*==================================================*/
+
+/*==================================================*/
+/*                    main body                     */
+/*--------------------------------------------------*/
+.block-head {
+    color: #154677;
+}
+
+.badges {
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 15px;
+}
+
+.badge {
+    padding: 4px 10px;
+    background-color: steelblue;
+    border-radius: 7px;
+    height: 27px;
+    color: white;
+    margin: 3px 4px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    letter-spacing: .5px;
+}
+
+ul.list {
+    list-style-type: "â†’"
+}
+
+/*==================================================*/
+
+
+.bm0 {
+    margin-bottom: 0px
+}
+
+
+/*==================================================*/
+/*                    project                     */
+/*--------------------------------------------------*/
+/*==================================================*/
+
+dl.mbl {
+    margin-bottom: 0px !important;
+}
