@@ -15,13 +15,21 @@ const skills = [
   "SEO/SEM",
   "Java",
   "Machine Learning",
+  "Firebase",
+  "SQL",
   "C",
   "C++",
   "DSA",
   "Php",
   "Node.js",
 ];
-const library = ["Flask", "Scikit-Learn", "Selenium", "tkinter", "Beautiful Soup"];
+const library = [
+  "Flask",
+  "Scikit-Learn",
+  "Selenium",
+  "tkinter",
+  "Beautiful Soup",
+];
 const frameworks = ["Django", "Laravel", "React.js"];
 const tool = [
   "PhpMyAdmin",
