@@ -63,10 +63,11 @@ page[size="A4"] {
     height: 29.7cm;
 }
 
-page::before {
+page::after {
     content: "*created using HTML5, CSS3 and JS";
     position: relative;
     left: 10px;
+    top: 100px;
     font-weight: 600;
     color: #888888;
     font-size: 12px;
