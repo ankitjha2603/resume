@@ -66,7 +66,7 @@ page[size="A4"] {
 page::after {
     content: "*created using HTML5, CSS3 and JS";
     position: relative;
-    left: 590px;
+    left: 570px;
     top: 119px;
     font-weight: 600;
     color: #888888;
