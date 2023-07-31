@@ -24,6 +24,8 @@ const skills = [
   "Node.js",
 ];
 const library = [
+  "Three.js",
+  "Cannon.js",
   "Flask",
   "Scikit-Learn",
   "Selenium",
