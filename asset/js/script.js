@@ -9,9 +9,9 @@ const skill_you_do = [
 const skills = [
   "Python",
   "HTML & CSS",
+  "3D Web development",
   "SCSS/SASS",
   "Javascript",
-  "jQuery",
   "SEO/SEM",
   "Java",
   "Machine Learning",
@@ -27,6 +27,7 @@ const library = [
   "YUKA",
   "Dat-gui",
   "Flask",
+  "jQuery",
   "Scikit-Learn",
   "Selenium",
   "tkinter",
