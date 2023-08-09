@@ -17,8 +17,6 @@ const skills = [
   "Machine Learning",
   "Firebase",
   "SQL",
-  "C",
-  "C++",
   "DSA",
   "Php",
   "Node.js",
@@ -26,6 +24,8 @@ const skills = [
 const library = [
   "Three.js",
   "Cannon.js",
+  "YUKA",
+  "Dat-gui",
   "Flask",
   "Scikit-Learn",
   "Selenium",
