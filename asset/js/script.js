@@ -20,7 +20,7 @@ const skills = [
   "Php",
   "Node.js",
 ];
-const library = [
+const library_frameworks = [
   "Three.js",
   "Cannon.js",
   "YUKA",
@@ -30,9 +30,11 @@ const library = [
   "Scikit-Learn",
   "Selenium",
   "tkinter",
-  "Beautiful Soup"
+  "Beautiful Soup",
+  "Django",
+  "Laravel",
+  "React.js"
 ];
-const frameworks = ["Django", "Laravel", "React.js"];
 const tool = [
   "PhpMyAdmin",
   "Docker/Docker swarm",
@@ -47,8 +49,7 @@ append(
 );
 append(
   ".lib-framework-badges",
-  ...library.map((ele) => newElement("badge", ele, "span")),
-  ...frameworks.map((ele) => newElement("badge", ele, "span"))
+  ...library_frameworks.map((ele) => newElement("badge", ele, "span"))
 );
 
 append(".tools-badges", ...tool.map((ele) => newElement("badge", ele, "span")));
