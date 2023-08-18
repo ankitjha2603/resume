@@ -13,10 +13,9 @@ const skills = [
   "SCSS/SASS",
   "Javascript",
   "SEO/SEM",
-  "Java",
+  "SQL",
   "Machine Learning",
   "Firebase",
-  "SQL",
   "DSA",
   "Php",
   "Node.js",
@@ -31,19 +30,16 @@ const library = [
   "Scikit-Learn",
   "Selenium",
   "tkinter",
-  "Beautiful Soup",
+  "Beautiful Soup"
 ];
 const frameworks = ["Django", "Laravel", "React.js"];
 const tool = [
   "PhpMyAdmin",
   "Docker/Docker swarm",
-  //"Docker swarm",
   "Adobe XD",
   "Bootstrap",
   "Git & GitHub",
-  "Google Analytics",
-  //"SEMrush",
-  //"Ahrefs",
+  "Google Analytics"
 ];
 append(
   ".tech-badges",
