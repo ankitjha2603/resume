@@ -22,6 +22,7 @@ const skills = [
 ];
 const library_frameworks = [
   "Three.js",
+  "React.js",
   "Cannon.js",
   "YUKA",
   "Dat-gui",
@@ -32,8 +33,7 @@ const library_frameworks = [
   "tkinter",
   "Beautiful Soup",
   "Django",
-  "Laravel",
-  "React.js"
+  "Laravel"
 ];
 const tool = [
   "PhpMyAdmin",
