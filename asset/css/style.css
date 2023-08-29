@@ -113,7 +113,7 @@ page::after {
 
 .head-info {
     height: fit-content;
-    width: 550px;
+    width: fit-content;;
 }
 
 /*==================================================*/
