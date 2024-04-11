@@ -1,0 +1,350 @@
+/*----------------------------------------------*/
+/*SECTION Google font import*/
+/*----------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/*----------------------------------------------*/
+
+/*----------------------------------------------*/
+/*SECTION imp class, variable, globar things*/
+/*----------------------------------------------*/
+:root {
+    --basic-color-light: rgb(49.409485%, 85.099792%, 34.118652%);
+    --theme-dard-green: rgb(0%, 50.19989%, 21.569824%);
+    --dark-violet: #154677
+}
+
+::selection {
+    background: var(--basic-color-light);
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.noto-serif-georgian {
+    font-family: 'Noto Serif Georgian', serif;
+}
+
+.merriweather {
+    font-family: 'Merriweather', serif;
+}
+
+.arial {
+    font-family: arial, serif;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+/*----------------------------------------------*/
+
+/*----------------------------------------------*/
+/*SECTION Body */
+/*----------------------------------------------*/
+body {
+    margin: 0px;
+    padding-top: 30px;
+    background: rgb(204, 204, 204);
+}
+
+/*----------------------------------------------*/
+
+/*----------------------------------------------*/
+/*SECTION page */
+/*----------------------------------------------*/
+page {
+    background: white;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+    box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+}
+
+page[size="A4"] {
+    width: 21cm;
+    height: 29.7cm;
+    padding-right: 5px;
+    position: relative;
+}
+
+page[size="A4"][page-number="2"] {
+    padding: 10px 0px 0px 0px;
+}
+
+page::after {
+    content: "* created using HTML5, CSS3 and JS";
+    position: absolute;
+    right: 15px;
+    bottom: 8px;
+    font-weight: 600;
+    color: #888888;
+    font-size: 13px;
+}
+
+/*----------------------------------------------*/
+
+/*----------------------------------------------*/
+/*SECTION  Resume head*/
+/*----------------------------------------------*/
+.resume-head {
+    padding: 15px 30px 5px 15px;
+}
+
+.resume-name {
+    margin-bottom: 0px;
+}
+
+.resume-headline {
+    color: #888888;
+    font-weight: 600;
+}
+
+.profile-image,
+.head-info {
+    margin: 5px 0px;
+}
+
+.head-info {
+    height: fit-content;
+    width: fit-content;
+}
+
+/*----------------------------------------------*/
+
+/*----------------------------------------------*/
+/*SECTION contact info*/
+/*----------------------------------------------*/
+.contect-info {
+    width: 100%;
+    height: fit-content;
+    background-color: #F0F0F0;
+}
+
+.first {
+    margin-left: 12px !important;
+}
+
+.contact-info-column {
+    min-width: fit-content;
+    height: fit-content;
+    padding: 2px 12px 3px 10px;
+    margin: 0px -7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.contact-info-particular {
+    display: flex;
+    padding: 2px 12px 2px 5px;
+    width: fit-content;
+    margin: 5px 0px;
+}
+
+.contact-info-particular>div {
+    margin: 0px 5px;
+}
+
+a {
+    color: black;
+    text-decoration: revert;
+}
+
+a:hover {
+    color: var(--theme-dard-green);
+}
+
+.icon-img {
+    background-size: contain;
+    width: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon-img.docker {
+    background-image: url(../icon/docker.svg);
+}
+
+.icon-img.hackerrank {
+    background-image: url(../icon/hackerrank.svg);
+}
+
+.icon-img.gfg {
+    background-image: url(../icon/gfg.svg);
+}
+
+.icon-img.leetcode {
+    background-image: url(../icon/leetcode.svg);
+}
+
+/*----------------------------------------------*/
+
+/*----------------------------------------------*/
+/*SECTION main body*/
+section.main-body.container {
+    padding-left: 30px;
+}
+
+.main-body>.row {
+    height: 787px;
+    padding-top: 15px;
+    padding-right: 0px;
+}
+
+.main-body>section {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.section-title {
+    font-size: 1.2em;
+    font-weight: 400;
+    border-bottom: 1px solid var(--dark-violet);
+    margin-bottom: 7px;
+    color: var(--dark-violet);
+    font-family: 'Merriweather', serif;
+}
+
+/*----------------------------------------------*/
+
+/*----------------------------------------------*/
+/*SECTION experience and publications*/
+.d-experience,
+.d-publications {
+    display: flex;
+    flex-direction: column;
+}
+
+.d-experience-head,
+.d-publications-head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.d-experience-role,
+.d-publications-title {
+    font-weight: bold;
+}
+
+.d-experience-date,
+.d-publications-date {
+    font-style: italic;
+}
+
+.d-experience-body,
+.d-publications-body {
+    font-size: 0.95em;
+}
+
+.d-expereince-head-main,
+.d-publications-head-main {
+    display: flex;
+}
+
+.d-experience-body>ul,
+.d-publications-body>ul {
+    padding-left: 30px;
+}
+
+.d-experience-head {
+    margin-bottom: 5px;
+}
+
+.d-publications {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+
+
+.d-experience-company,
+.d-publications-company {
+    font-weight: 500;
+}
+
+/*----------------------------------------------*/
+
+/*----------------------------------------------*/
+/*SECTION projects*/
+
+
+.d-projects {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 0px 0px;
+}
+
+.d-projects-head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.d-projects-head-main {
+    display: flex;
+}
+
+.d-projects-title {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.d-projects-keywords {
+    display: flex;
+    color: var(--dark-violet);
+    font-weight: 500;
+    font-style: italic;
+}
+
+.d-projects-access {
+    font-weight: 500;
+}
+
+/*----------------------------------------------*/
+
+/*----------------------------------------------*/
+/*SECTION projects*/
+.technical-skill-line {
+    display: flex;
+}
+
+.technical-skill-line>samp {
+    font-weight: bold;
+    width: 100px;
+}
+
+.skills {
+    width: 640px;
+}
+
+/*----------------------------------------------*/
+
+/*----------------------------------------------*/
+/*SECTION projects*/
+ul {
+    list-style-type: none;
+}
+
+ul>li {
+    position: relative;
+}
+
+ul>li:before {
+    content: "•";
+    color: var(--dark-violet);
+    font-size: 24px;
+    margin-right: 10px;
+    position: absolute;
+    left: -30px;
+    top: -7px;
+}
+
+/*----------------------------------------------*/
+
+/******************************************/
+/******************************************/
+/******************************************/
