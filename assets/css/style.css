@@ -106,6 +106,9 @@ page::after {
     margin-bottom: 0px;
 }
 
+.resume-summary{
+    font-size: 14px;
+}    
 .resume-headline {
     color: #888888;
     font-weight: 600;
